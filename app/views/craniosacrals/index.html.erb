@@ -1,0 +1,45 @@
+<div>
+  <div class="line"></div>
+  <div class="title">
+    <div class="name">
+      <h1 class="gloria">Gloria Flores<p>HHP, CST-D</p></h1>
+      <h3>Certified Craniosacral Therapist</h3>
+    </div>
+
+    <div>
+      <%= render :partial => 'layouts/carousel' %>
+    </div>
+  </div>
+
+  <div class="line"></div>
+  <ul class="pagination">
+    <li><a href="#" class="page">Home</a></li>
+    <li><a href="#" class="page">About</a></li>
+    <li><a href="#" class="page">Treatment</a></li>
+    <li><a href="#" class="page">Visit Me</a></li>
+  </ul>
+  
+  <div class="line"></div>
+  <div class="info">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @craniosacrals.each do |craniosacral| %>
+          <tr>
+            <td><%= link_to 'Show', craniosacral %></td>
+            <td><%= link_to 'Edit', edit_craniosacral_path(craniosacral) %></td>
+            <td><%= link_to 'Destroy', craniosacral, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+      

@@ -1,0 +1,17 @@
+<%= form_for(@craniosacral) do |f| %>
+  <% if @craniosacral.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@craniosacral.errors.count, "error") %> prohibited this craniosacral from being saved:</h2>
+
+      <ul>
+      <% @craniosacral.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
