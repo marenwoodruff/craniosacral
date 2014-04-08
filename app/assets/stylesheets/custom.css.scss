@@ -1,17 +1,21 @@
-@import "bootstrap";
+$pagination-hover-color: #004400;
+$pagination-color: #007700;
+$pagination-hover-bg: #CCDDBB;
 
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
 
 body {
   background-color: #CCDDBB;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Gilda Display', serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 /* home page */
 .title {
-  height: 160px;
+  height: 159px;
   width: 1000px;
   margin-left: 140px;
   background-color: white;
@@ -40,7 +44,6 @@ body {
   height: 155px;
   width: 250px;
   float: right;
- /* padding-top: 3px;*/
   margin-right: 42px;
 }
 
@@ -52,9 +55,11 @@ body {
   padding-left: 20px;
   font-size: 45px;
   padding-top: 2px;
+  color: #005500;
 }
 
 .line {
+  margin-top: 5px;
   height: 4px;
   background-color: #006600;
   width: 1000px;
@@ -66,7 +71,7 @@ body {
   background-color: #006600;
   width: 1000px;
   margin-left: 140px;
-  margin-bottom: -40px;
+  margin-bottom: -150px;
 }
 
 .line2 {
@@ -74,7 +79,6 @@ body {
   background-color: #006600;
   width: 1000px;
   margin-left: 140px;
-  /*margin-bottom: -30px;*/
   margin-top: -25px;
   margin-bottom: 10px;
 }
@@ -84,7 +88,7 @@ body {
   width: 1001px;
   margin-left: 140px;
   background-color: white;
-  margin-top: 70px;
+  margin-top: 7px;
   border-bottom: 2px;
 }
 
@@ -94,9 +98,11 @@ body {
   width: 251px;
   font-size: 20px;
   margin-left: 100px;
+  font-family: 'Gilda Display', serif;
+  color: #004400;
 }
 
-.page.hover {
+.page:hover {
   background-color: #CCDDBB;
 }
 
