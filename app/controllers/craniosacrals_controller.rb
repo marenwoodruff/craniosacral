@@ -13,6 +13,7 @@ class CraniosacralsController < ApplicationController
   end
 
   def edit
+    @craniosacral = Craniosacral.find(params[:id])
   end
 
   def create
@@ -30,6 +31,7 @@ class CraniosacralsController < ApplicationController
   end
 
   def update
+    @craniosacral = Craniosacral.find(params[:id])
     respond_to do |format|
       if @craniosacral.update(craniosacral_params)
         format.html { redirect_to @craniosacral, notice: 'Craniosacral was successfully updated.' }
@@ -56,7 +58,7 @@ class CraniosacralsController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def craniosacral_params
-      params[:craniosacral]
-    end
+    # def craniosacral_params
+    #   params[:craniosacral]
+    # end
 end

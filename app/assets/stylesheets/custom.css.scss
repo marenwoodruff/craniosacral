@@ -4,6 +4,7 @@ $pagination-hover-bg: #CCDDBB;
 
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
 body {
   background-color: #CCDDBB;
@@ -15,72 +16,89 @@ body {
 
 /* home page upper */
 .title {
-  height: 159px;
+  height: 292px;
   width: 1000px;
   margin-left: 140px;
   background-color: white;
+  margin-bottom: 150px;
 }
 
 .flower{
-  padding-top: 25px;
-  padding-left: 95px;
+  padding-top: 45px;
+  padding-left: 30px;
   padding-right: 10px;
   float: left;
 }
 
 .name {
-  padding-top: 10px;
+  padding-top: 5px;
   float: left;
-  width: 500px;
+  width: 600px;
   height: 160px;
 }
 
+.gloria {
+  padding-left: 20px;
+  font-size: 45px;
+  padding-top: 30px;
+  margin-bottom: -20px;
+  color: #40502F;
+}
+
+.certificate {
+  padding-left: 5px;
+  padding-top: 24px;
+  padding-right: 130px;
+  font-size: 20px;
+  float: right;
+  color: #808000;
+}
+
+.certification {
+  padding-top: 0px;
+  color: #808000;
+}
+
 .cranio {
-  padding-left: 95px;
-  margin-top: 1px;
+  margin-top: -5px;
+  padding-left: 100px;
+  color: #808000;
+}
+
+.health {
+  padding-left: 100px;
 }
 
 .carousel {
-  height: 155px;
-  width: 250px;
+  height: 290px;
+  width: 370px;
   float: right;
-  margin-right: 42px;
+  /*margin-right: 10px;*/
 }
 
 .carousel-indicators{
   display: none;
 }
 
-.gloria {
-  padding-left: 20px;
-  font-size: 45px;
-  padding-top: 2px;
-  color: #005500;
-}
-
-.certification {
-  color: #11aa00;
-}
-
 .line {
   margin-top: 5px;
   height: 4px;
-  background-color: #006600;
+  background-color: #808000;
   width: 1000px;
   margin-left: 140px;
 }
 
 .line1 {
   height: 4px;
-  background-color: #006600;
+  background-color: #808000;
   width: 1000px;
   margin-left: 140px;
-  margin-bottom: -150px;
+  margin-top: -150px;
 }
 
 .line2 {
   height: 4px;
-  background-color: #006600;
+  background-color: #808000;
   width: 1000px;
   margin-left: 140px;
   margin-top: -25px;
@@ -103,24 +121,24 @@ body {
   font-size: 20px;
   margin-left: 100px;
   font-family: 'Gilda Display', serif;
-  color: #004400;
+  color: #808000;
 }
 
 .page:hover {
-  background-color: #CCDDBB;
+  background-color: #556B2F;
 }
 
 /* home page lower */
 .info {
   width: 1000px;
-  height: 1000px;
+  height: 850px;
   margin-left: 140px;
   background-color: white;
   margin-top: -10px;
 }
 
 .info-title{
-  color: #004400;
+  color: #40502F;
 }
 
 .main {
@@ -129,14 +147,36 @@ body {
   padding-top: 35px;
 }
 
+.mission {
+  color: #556B2F;
+}
+
 .expertise {
   float: right;
   padding-top: 50px;
   padding-right: 50px;
 }
 
+.areas {
+  color: #40402F;
+  padding-left: 21px;
+}
+
 .place {
-  padding-bottom: -20px;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', serif;
+  color: #556B2F;
+  font-size: 16px;
+}
+
+.session {
+  color: #556B2F;
+  font-size: 16px;
+}
+
+.serving {
+  color: #556B2F;
+  font-size: 16px;
 }
 
 .iahp {
@@ -149,7 +189,58 @@ body {
 }
 
 p, ol, ul, td {
-  font-family: 'Gilda Display', serif;
+  font-family: 'Open Sans', serif;
   font-size: 14px;
   line-height: 18px;
 }
+
+/* About */
+
+.index-main {
+  width: 700px;
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.main-title {
+  color: #40502F;
+}
+
+.CST-D {
+ margin-bottom: -45px;
+ font-size: 20px;
+ color: #40502F;
+}
+
+.qualified {
+  color: #909000;
+}
+
+.expertise1 {
+  float: right;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #40502F;
+}
+
+h5 {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: #909000;
+}
+
+.yelp {
+  font-size: 15px;
+}
+
+
+
