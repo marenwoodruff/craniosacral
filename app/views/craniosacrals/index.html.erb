@@ -5,7 +5,7 @@
       <div class="flower">
         <%= image_tag("lotus2.jpg", :alt => "lotus flower") %>
       </div>
-      <h1 class="gloria">Gloria Flores<p>HHP, CST-D</p></h1>
+      <h1 class="gloria">Gloria Flores<p class="certification">HHP, CST-D</p></h1>
       <h3 class="cranio">Certified Craniosacral Therapist</h3>
     </div>
 
@@ -24,25 +24,88 @@
   
   <div class="line2"></div>
   <div class="info">
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-      </thead>
+    <div class="expertise">
+      <p>
+        <h4><u>Areas of expertise:</u></h4> 
+        <ul>
+          <li>Stress Management </li> 
+          <li>Chronic Pain Relief </li> 
+          <li>TMJ & Teeth Grinding </li> 
+          <li>Headaches & Migraines </li> 
+          <li>Neck & Back Pain </li> 
+          <li>PTSD </li> 
+          <li>Car Accidents </li> 
+          <li>Depression & Anxiety </li> 
+        </ul>
+      </p>
 
-      <tbody>
-        <% @craniosacrals.each do |craniosacral| %>
-          <tr>
-            <td><%= link_to 'Show', craniosacral %></td>
-            <td><%= link_to 'Edit', edit_craniosacral_path(craniosacral) %></td>
-            <td><%= link_to 'Destroy', craniosacral, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-          </tr>
-        <% end %>
-      </tbody>
-    </table>
+      <br />
+
+      <p>
+        FSHLB Health Coach Lic.# 1263 <br />
+        NCBTMB Provider #452863-12 <br />
+        CA State CMT #23263 <br />
+      </p>  
+
+      <br />
+      <div>
+        <%= image_tag("dipl._cert2.jpg", :alt => "CST-D Certification") %>
+        <a href= 'http://www.iahp.com/'><%= image_tag("IAHP.jpg", :class => "iahp", :alt => "IAHP link") %></a><br />
+      </div>
+      
+      <div> 
+        <%= image_tag("credit_cards.jpg", :class => "credit", :alt => "Accepted Credit Cards") %>
+      </div>
+
+      <br />
+
+      <p>
+        <h5 class="place"><b>Burbank Craniosacral Therapy</b></h5>
+        10000 Riverside Dr., #17 <br />
+        Toluca Lake, CA 91602 
+      </p>
+      
+      <br />
+
+      <p>
+        Session Price: One Hour - $100 <br />
+        Package Rates Available
+      </p>
+
+      <br />
+
+      <p>
+        <u>Serving:</u>  Burbank, Glendale, <br /> 
+        Pasadena, Los Angeles, <br />
+        North Hollywood and <br />
+        the San Fernando Valley
+      </p>
+    </div>
+
+    <div class="main">
+      <h3 class="info-title"><strong>Craniosacral Therapy</strong></h3>
+      <p>
+        Is chronic pain, anxiety or stress disrupting your life? If you're ready to live the productive life you long for, Craniosacral Therapy can help!
+      </p>
+
+      <br />
+
+      <p>
+        Craniosacral Therapy is a unique whole-person approach to health and healing that is one of the most gentle, yet powerful forms of alternative treatment available. Car accidents, sports injuries, falls and impact injuries respond incredibly well to this work. When applied shortly after an accident, it can help prevent trauma from settling into the soft tissues of your body. For older injuries, it can release trauma from the body's connective tissue and nervous system.
+      </p>
+
+      <br />
+      
+      <p>
+        Perhaps it feels like external pressures are completely overwhelming your life, leaving you yearning for a sense of calm in the center of a storm. Maybe you feel stagnant and stuck, wanting to move to a more creative and productive way of life. Or, you may have patterns of self-defeating thoughts or behaviors that cause disruption and chaos in your life. Craniosacral Therapy is the answer you're looking for.
+      </p>
+
+      <br />
+
+      <p>
+        Craniosacral Therapy is a combination of physical, energy, and hands-on  techniques. It relaxes your sympathetic nervous system and activates your parasympathetic nervous system, creating ideal conditions for better self-awareness,  self-acceptance, and connection to your potential for growth and change. My clients report feeling blissfully relaxed, centered, refreshed, and re-energized after their sessions. Results are long-lasting and in many cases permanent, since changes come from your own system.
+      </p>
+    </div>
   </div>
 </div>
       

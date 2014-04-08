@@ -13,7 +13,7 @@ body {
   line-height: 18px;
 }
 
-/* home page */
+/* home page upper */
 .title {
   height: 159px;
   width: 1000px;
@@ -56,6 +56,10 @@ body {
   font-size: 45px;
   padding-top: 2px;
   color: #005500;
+}
+
+.certification {
+  color: #11aa00;
 }
 
 .line {
@@ -106,72 +110,46 @@ body {
   background-color: #CCDDBB;
 }
 
+/* home page lower */
 .info {
   width: 1000px;
-  height: 500px;
+  height: 1000px;
   margin-left: 140px;
   background-color: white;
   margin-top: -10px;
 }
 
+.info-title{
+  color: #004400;
+}
+
+.main {
+  width: 650px;
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.expertise {
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.place {
+  padding-bottom: -20px;
+}
+
+.iahp {
+  padding-bottom: 14px;
+  padding-left: 5px;
+}
+
+.credit {
+  padding-left: 18px;
+}
+
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Gilda Display', serif;
+  font-size: 14px;
   line-height: 18px;
-}
-
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
-a {
-  color: #000;
-  &:visited {
-    color: #666;
-  }
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
-}
-
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
-  }
-}
-
-#notice {
-  color: green;
-}
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff;
-  }
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
 }
