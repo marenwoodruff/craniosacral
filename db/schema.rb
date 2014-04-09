@@ -11,11 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140408015957) do
+ActiveRecord::Schema.define(version: 20140409210524) do
 
   create_table "craniosacrals", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
+    t.string   "address"
   end
 
 end

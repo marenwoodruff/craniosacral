@@ -1,11 +1,11 @@
 class CraniosacralsController < ApplicationController
-  before_action :set_craniosacral, only: [:show, :edit, :update, :destroy]
 
   def index
     @craniosacrals = Craniosacral.all
   end
 
   def show
+    @craniosacral = Craniosacral.find_by(name: "Gloria")
   end
 
   def new
@@ -13,7 +13,7 @@ class CraniosacralsController < ApplicationController
   end
 
   def edit
-    @craniosacral = Craniosacral.find(params[:id])
+    @craniosacral = Craniosacral.find_by(name: "Gloria")
   end
 
   def create
@@ -52,13 +52,8 @@ class CraniosacralsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_craniosacral
-      @craniosacral = Craniosacral.find(params[:id])
-    end
-
     # Never trust parameters from the scary internet, only allow the white list through.
-    # def craniosacral_params
-    #   params[:craniosacral]
-    # end
+    def craniosacral_params
+      params.require(:craniosacral).permit(:name, :address)
+    end
 end

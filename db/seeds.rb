@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Craniosacral.destroy_all
+
+Craniosacral.create([{ 
+    name: "Gloria Flores", 
+    address: "Burbank, CA",
+    id: 1
+}])
