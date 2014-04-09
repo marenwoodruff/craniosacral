@@ -14,7 +14,9 @@ body {
   line-height: 18px;
 }
 
+
 /* home page upper */
+
 .title {
   height: 292px;
   width: 1000px;
@@ -73,7 +75,6 @@ body {
   height: 290px;
   width: 370px;
   float: right;
-  /*margin-right: 10px;*/
 }
 
 .carousel-indicators{
@@ -121,14 +122,17 @@ body {
   font-size: 20px;
   margin-left: 100px;
   font-family: 'Gilda Display', serif;
-  color: #808000;
+  color: #6B8E23;
 }
 
 .page:hover {
   background-color: #556B2F;
 }
 
+
+
 /* home page lower */
+
 .info {
   width: 1000px;
   height: 850px;
@@ -149,6 +153,10 @@ body {
 
 .mission {
   color: #556B2F;
+}
+
+.signed-by {
+  color: #707000;
 }
 
 .expertise {
@@ -194,10 +202,12 @@ p, ol, ul, td {
   line-height: 18px;
 }
 
+
+
 /* About */
 
 .index-main {
-  width: 700px;
+  width: 675px;
   padding-left: 100px;
   padding-top: 35px;
 }
@@ -219,7 +229,7 @@ p, ol, ul, td {
 .expertise1 {
   float: right;
   padding-top: 50px;
-  padding-right: 80px;
+  padding-right: 95px;
 }
 
 h2 {
@@ -242,5 +252,65 @@ h5 {
   font-size: 15px;
 }
 
+
+
+/* Treatment Page */
+
+.info1 {
+  width: 1000px;
+  height: 950px;
+  margin-left: 140px;
+  background-color: white;
+  margin-top: -10px;
+}
+
+.treatment {
+  width: 700px;
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.help {
+  color: #40502F;
+  padding-right: 75px;
+  font-size: 26px;
+}
+
+.testimonials {
+  float: right;
+  padding-right: 30px;
+  padding-top: 100px;
+  width: 250px;
+}
+
+.testimonial {
+  padding-left: 15px;
+  color: #40502F;
+}
+
+.client {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.rates {
+  padding-left: 85px;
+}
+
+.consult {
+  color: #909000;
+}
+
+.button {
+  padding-left: 30px;
+}
+
+.btn.btn-default {
+  background-color: #CCDDBB;
+}
+
+.btn.btn-default:hover {
+  background-color: #6B8E23;
+}
 
 
