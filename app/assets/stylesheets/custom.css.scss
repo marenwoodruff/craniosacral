@@ -12,8 +12,25 @@ body {
   font-family: 'Gilda Display', serif;
   font-size: 13px;
   line-height: 18px;
+  height: 1400px;
 }
 
+.body {
+  height: 1150px;
+}
+
+.body1 {
+  height: 1100px;
+}
+
+.body2 {
+  height: 1300px;
+}
+
+.copyright {
+  padding-left: 165px;
+  padding-top: 20px;
+}
 
 /* home page upper */
 
@@ -198,11 +215,13 @@ body {
 
 p, ol, ul, td {
   font-family: 'Open Sans', serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
 }
 
-
+a {
+  color: #909000;
+}
 
 /* About */
 
@@ -261,13 +280,13 @@ h5 {
   height: 950px;
   margin-left: 140px;
   background-color: white;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .treatment {
   width: 700px;
   padding-left: 100px;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .help {
@@ -321,13 +340,13 @@ h5 {
   height: 650px;
   margin-left: 140px;
   background-color: white;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .appointment {
   color: #40502F;
   padding-left: 100px;
-  padding-top: 35px;
+  padding-top: 55px;
   font-size: 28px;
 }
 
@@ -344,17 +363,68 @@ h5 {
 
 
 /* Learn More Page */
+.info3 {
+  width: 1000px;
+  height: 700px;
+  margin-left: 140px;
+  background-color: white;
+  margin-top: -20px;
+}
+
 .learn {
-  color: #808000;
+  color: #40502F;
   padding-left: 100px;
-  padding-top: 35px;
+  padding-top: 55px;
   font-size: 28px;
 }
 
+.article-title {
+  color: #40502F;
+  font-size: 19px;
+}
 
+.articles {
+  margin-bottom: 50px;
+}
 
+.articles1 {
+  padding-left: 100px;
+  width: 370px;
+  height: 185px;
+  float: left;
+  margin-bottom: 40px;
+}
 
+.articles2 {
+  float: right;
+  width: 275px;
+  height: 185px;
+  margin-right: 325px;
+  margin-bottom: 40px;
+}
 
+.selfgrowth {
+  color: #909000;
+  font-size: 16px;
+}
+
+.messenger {
+  color: #909000;
+  font-size: 16px;
+}
+
+.class {
+  color: #40502F;
+  /*padding-right: 200px;*/
+  font-size: 28px;
+}
+
+.cst-class {
+  padding-top: 30px;
+  padding-left: 100px;
+  width: 800px;
+  float: left;
+}
 
 
 
