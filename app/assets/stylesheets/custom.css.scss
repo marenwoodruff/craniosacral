@@ -32,6 +32,9 @@ body {
   padding-top: 20px;
 }
 
+
+
+
 /* home page upper */
 
 .title {
@@ -224,6 +227,71 @@ body {
   }
 }
 
+@media(max-width: 769px){
+  .copyright {
+    padding-left: 55px;
+  }
+  .title {
+    margin-left: 9px;
+    width: 750px;
+    height: 260px;
+  }
+  .line {
+    margin-left: 10px;
+    width: 750px;
+  }
+  .line1 {
+    margin-left: 10px;
+    width: 750px;
+  }
+  .line2 {
+    margin-left: 10px;
+    width: 750px;
+  }
+  .pagination {
+    margin-left: 10px;
+    width: 751px;
+  }
+  .page {
+    width: 151px;
+  }
+  .flower{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .name {
+    width: 400px;
+  }
+  .gloria {
+    font-size: 35px;
+    padding-top: 25px;
+  }
+  .certificate {
+    padding-right: 18px;
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .certification {
+    font-size: 23px;
+  }
+  .cranio {
+    margin-top: -5px;
+    padding-left: 50px;
+    font-size: 23px;
+  }
+
+  .health {
+    padding-left: 50px;
+  }
+
+  .carousel {
+    height: 260px;
+    width: 350px;
+    float: right;
+  }
+}
+
 
 
 
@@ -318,12 +386,39 @@ a {
   .info {
     margin-left: 38px;
     width: 950px;
+    height: 860px;
   }
   .expertise {
     padding-right: 40px;
   }
   .areas {
     padding-left: 25px;
+  }
+}
+
+@media(max-width: 769px){
+  .info {
+    margin-left: 10px;
+    width: 750px;
+    height: 925px;
+  }
+  .main {
+    width: 450px;
+    padding-left: 50px;
+    padding-top: 25px;
+  }
+  .expertise {
+    padding-right: 10px;
+  }
+  .areas {
+    padding-right: 15px;
+  }
+  .iahp {
+    padding-bottom: 14px;
+    padding-right: -5px;
+  }
+  .credit {
+    padding-right: -5px;
   }
 }
 
@@ -378,6 +473,17 @@ h5 {
 }
 
 @media(max-width: 1025px){
+  .expertise1 {
+    padding-right: 45px;
+  }
+}
+
+@media(max-width: 769px){
+  .index-main {
+    width: 475px;
+    padding-left: 50px;
+    padding-top: 25px;
+  }
   .expertise1 {
     padding-right: 45px;
   }
@@ -469,7 +575,31 @@ h5 {
   .treatment {
     width: 700px;
     padding-left: 70px;
-    padding-top: 45px;
+  }
+}
+
+@media(max-width: 769px){
+  .info1 {
+    margin-left: 10px;
+    width: 750px;
+    height: 1020px;
+  }
+  .testimonials {
+    padding-right: 10px;
+    padding-top: 70px;
+    width: 220px;
+  }
+  .treatment {
+    width: 510px;
+    padding-left: 48px;
+    padding-top: 30px;
+  }
+  .help {
+    padding-right: 0px;
+    font-size: 24px;
+  }
+  .rates {
+    padding-left: 57px;
   }
 }
 
@@ -518,6 +648,24 @@ h5 {
   .info2 {
     margin-left: 38px;
     width: 950px;
+  }
+}
+
+@media(max-width: 769px){
+  .info2 {
+    margin-left: 10px;
+    width: 750px;
+    height: 600px;
+  }
+  .appointment {
+    padding-left: 50px;
+    padding-top: 45px;
+  }
+  .map {
+    padding-right: 50px;
+  }
+  .contact {
+    padding-left: 50px;  
   }
 }
 
@@ -607,6 +755,29 @@ h5 {
   }
   .articles2 {
     margin-right: 225px;
+  }
+}
+
+@media(max-width: 769px){
+  .info3 {
+    margin-left: 10px;
+    width: 750px;
+  }
+  .learn {
+    padding-left: 50px;
+    padding-top: 45px;
+  }
+  .articles1 {
+    padding-left: 50px;
+  }
+  .articles2 {
+    margin-right: 90px;
+  }
+  .cst-class {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 700px;
+    float: left;
   }
 }
 
