@@ -294,6 +294,77 @@ body {
   }
 }
 
+@media(max-width: 641px){
+  .copyright {
+    padding-left: 50px;
+    padding-top: 17px;
+  }
+  .title {
+    margin-left: 10px;
+    width: 620px;
+    height: 260px;
+  }
+  .line {
+    margin-left: 10px;
+    width: 620px;
+  }
+  .line1 {
+    margin-left: 10px;
+    width: 620px;
+  }
+  .line2 {
+    margin-left: 10px;
+    width: 620px;
+  }
+  .pagination {
+    margin-left: 10px;
+    width: 621px;
+  }
+  .page {
+    width: 125px;
+    font-size: 18px;
+  }
+  .flower{
+    padding-top: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .name {
+    width: 370px;
+  }
+  .gloria {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  .certificate {
+    padding-left: -50px;
+    padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .certification {
+    font-size: 21px;
+
+  }
+  .cranio {
+    padding-left: 35px;
+    font-size: 21px;
+  }
+  .health {
+    padding-left: 35px;
+  }
+  .carousel {
+    height: 260px;
+    width: 250px;
+    float: right;
+  }
+  .carousel-inner > .item > img {
+    height: 260px;
+    width: 250px;
+  }
+}
+
 
 
 
@@ -424,6 +495,33 @@ a {
   }
 }
 
+@media(max-width: 641px){
+  .info {
+    margin-left: 10px;
+    width: 620px;
+    height: 975px;
+  }
+  .main {
+    width: 365px;
+    padding-left: 30px;
+    padding-top: 23px;
+  }
+  .expertise {
+    padding-right: 1px;
+    width: 230px;
+  }
+  .areas {
+    padding-right: 15px;
+  }
+  .iahp {
+    padding-bottom: 14px;
+    padding-right: -5px;
+  }
+  .credit {
+    padding-right: -5px;
+  }
+}
+
 
 
 /* About */
@@ -488,6 +586,17 @@ h5 {
   }
   .expertise1 {
     padding-right: 45px;
+  }
+}
+
+@media(max-width: 641px){
+  .index-main {
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 23px;
+  }
+  .expertise1 {
+    padding-right: 15px;
   }
 }
 
@@ -605,6 +714,31 @@ h5 {
   }
 }
 
+@media(max-width: 641px){
+  .info1 {
+    margin-left: 10px;
+    width: 620px;
+    height: 1280px;
+  }
+  .testimonials {
+    padding-right: 10px;
+    padding-top: 80px;
+    width: 217px;
+  }
+  .treatment {
+    width: 370px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  .rates {
+    padding-left: 60px;
+  }
+  .button {
+    padding-left: 20px;
+  }
+}
+
+
 
 
 /* Visit Us Page */
@@ -668,7 +802,26 @@ h5 {
     padding-top: 75px;
   }
   .contact {
-    padding-left: 50px;  
+    padding-left: 50px;
+  }
+}
+
+@media(max-width: 641px){
+  .info2 {
+    margin-left: 10px;
+    width: 620px;
+    height: 500px;
+  }
+  .appointment {
+    padding-left: 30px;
+    font-size: 27px;
+  }
+  .map {
+    padding-right: 30px;
+    padding-top: 90px;
+  }
+  .contact {
+    padding-left: 30px;  
   }
 }
 
@@ -781,6 +934,38 @@ h5 {
     padding-left: 50px;
     width: 700px;
     float: left;
+  }
+}
+
+@media(max-width: 641px){
+  .info3 {
+    margin-left: 10px;
+    width: 620px;
+  }
+  .learn {
+    padding-left: 30px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+  }
+  .articles1 {
+    padding-left: 30px;
+    width: 300px;
+    height: 155px;
+  }
+  .articles2 {
+    margin-right: 30px;
+    width: 260px;
+    height: 155px;
+  }
+  .cst-class {
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 400px;
+    width: 550px;
+    float: left;
+  }
+  .class {
+    padding-bottom: 10px;
   }
 }
 
