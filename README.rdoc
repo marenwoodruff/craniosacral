@@ -4,3 +4,4 @@ Ruby version 4.0
 MySQL
 
 Site built for a craniosacral therapist.
+Includes a home page, about, treatment, learn more and visit us page.
