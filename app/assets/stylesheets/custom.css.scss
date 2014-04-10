@@ -28,7 +28,7 @@ body {
 }
 
 .copyright {
-  padding-left: 165px;
+  padding-left: 365px;
   padding-top: 20px;
 }
 
@@ -37,7 +37,7 @@ body {
 .title {
   height: 292px;
   width: 1000px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
   margin-bottom: 150px;
 }
@@ -103,14 +103,14 @@ body {
   height: 4px;
   background-color: #808000;
   width: 1000px;
-  margin-left: 140px;
+  margin-left: 340px;
 }
 
 .line1 {
   height: 4px;
   background-color: #808000;
   width: 1000px;
-  margin-left: 140px;
+  margin-left: 340px;
   margin-top: -150px;
 }
 
@@ -118,7 +118,7 @@ body {
   height: 4px;
   background-color: #808000;
   width: 1000px;
-  margin-left: 140px;
+  margin-left: 340px;
   margin-top: -25px;
   margin-bottom: 10px;
 }
@@ -126,7 +126,7 @@ body {
 .pagination {
   height: 40px;
   width: 1001px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
   margin-top: 7px;
   border-bottom: 2px;
@@ -146,6 +146,85 @@ body {
   background-color: #556B2F;
 }
 
+@media(max-width: 1367px){
+  .copyright {
+    padding-left: 230px;
+  }
+  .title {
+    margin-left: 190px;
+  }
+  .line {
+    margin-left: 190px;
+  }
+  .line1 {
+    margin-left: 190px;
+  }
+  .line2 {
+    margin-left: 190px;
+  }
+  .pagination {
+    margin-left: 190px;
+  }
+}
+
+@media(max-width: 1281px){
+  .copyright {
+    padding-left: 165px;
+  }
+  .title {
+    margin-left: 140px;
+  }
+  .line {
+    margin-left: 140px;
+  }
+  .line1 {
+    margin-left: 140px;
+  }
+  .line2 {
+    margin-left: 140px;
+  }
+  .pagination {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1025px){
+  .copyright {
+    padding-left: 75px;
+  }
+  .title {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .line {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .line1 {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .line2 {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .pagination {
+    margin-left: 38px;
+    width: 951px;
+  }
+  .page {
+    width: 191px;
+  }
+  .name {
+    width: 550px;
+  }
+  .certificate {
+    padding-right: 70px;
+    padding-top: 23px;
+  }
+}
+
+
 
 
 /* home page lower */
@@ -153,7 +232,7 @@ body {
 .info {
   width: 1000px;
   height: 850px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
   margin-top: -10px;
 }
@@ -223,6 +302,33 @@ a {
   color: #909000;
 }
 
+@media(max-width: 1367px){
+  .info {
+    margin-left: 190px;
+  }
+}
+
+@media(max-width: 1281px){
+  .info {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1025px){
+  .info {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .expertise {
+    padding-right: 40px;
+  }
+  .areas {
+    padding-left: 25px;
+  }
+}
+
+
+
 /* About */
 
 .index-main {
@@ -271,6 +377,12 @@ h5 {
   font-size: 15px;
 }
 
+@media(max-width: 1025px){
+  .expertise1 {
+    padding-right: 45px;
+  }
+}
+
 
 
 /* Treatment Page */
@@ -278,9 +390,9 @@ h5 {
 .info1 {
   width: 1000px;
   height: 950px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .treatment {
@@ -332,13 +444,43 @@ h5 {
   background-color: #6B8E23;
 }
 
+@media(max-width: 1367px){
+  .info1 {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1281px){
+  .info1 {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1025px){
+  .info1 {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .testimonials {
+    padding-right: 30px;
+    padding-top: 100px;
+    width: 240px;
+  }
+  .treatment {
+    width: 700px;
+    padding-left: 70px;
+    padding-top: 45px;
+  }
+}
+
 
 
 /* Visit Us Page */
+
 .info2 {
   width: 1000px;
   height: 650px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
   margin-top: -20px;
 }
@@ -360,13 +502,34 @@ h5 {
   padding-left: 100px;  
 }
 
+@media(max-width: 1367px){
+  .info2 {
+    margin-left: 190px;
+  }
+}
+
+@media(max-width: 1281px){
+  .info2 {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1025px){
+  .info2 {
+    margin-left: 38px;
+    width: 950px;
+  }
+}
+
+
 
 
 /* Learn More Page */
+
 .info3 {
   width: 1000px;
   height: 700px;
-  margin-left: 140px;
+  margin-left: 340px;
   background-color: white;
   margin-top: -20px;
 }
@@ -415,7 +578,6 @@ h5 {
 
 .class {
   color: #40502F;
-  /*padding-right: 200px;*/
   font-size: 28px;
 }
 
@@ -424,6 +586,28 @@ h5 {
   padding-left: 100px;
   width: 800px;
   float: left;
+}
+
+@media(max-width: 1367px){
+  .info3 {
+    margin-left: 190px;
+  }
+}
+
+@media(max-width: 1281px){
+  .info3 {
+    margin-left: 140px;
+  }
+}
+
+@media(max-width: 1025px){
+  .info3 {
+    margin-left: 38px;
+    width: 950px;
+  }
+  .articles2 {
+    margin-right: 225px;
+  }
 }
 
 
