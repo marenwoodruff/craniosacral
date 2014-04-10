@@ -268,7 +268,7 @@ body {
     padding-top: 25px;
   }
   .certificate {
-    padding-right: 18px;
+    padding-right: 19px;
     padding-top: 15px;
     font-size: 18px;
   }
@@ -280,15 +280,17 @@ body {
     padding-left: 50px;
     font-size: 23px;
   }
-
   .health {
     padding-left: 50px;
   }
-
   .carousel {
     height: 260px;
     width: 350px;
     float: right;
+  }
+  .carousel-inner > .item > img {
+    height: 260px;
+    width: 350px;
   }
 }
 
@@ -663,6 +665,7 @@ h5 {
   }
   .map {
     padding-right: 50px;
+    padding-top: 75px;
   }
   .contact {
     padding-left: 50px;  
